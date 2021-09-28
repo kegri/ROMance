@@ -1,6 +1,6 @@
 body {
-	background-color: #000;
-	
+	background-image: url('/images/background.jpg');
+	background-size: cover;
 }
 .big {
 	transform: rotate(-90deg);
@@ -241,3 +241,7 @@ body {
 #pc-controlls table {
 	margin: 0 auto; 
 }
+
+table, tr, td {
+	border: 1px solid moccasin;
+  }
