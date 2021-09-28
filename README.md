@@ -2,7 +2,7 @@
     <a href="https://github.com/skyline-emu/skyline" target="_blank">
         <h1>ROMance<h1>
     </a>
-    <img src="https://forthebadge.com/generator/?plabel=built+for&slabel=web"/>
+    <img src="http://svgur.com/i/aa6.svg"/>
 </h1>
 <p align="center">
     <b>ROMance</b> is an experimental emulator that runs web based on <b>Android/iOS/PC</b> devices/browsers and emulates the functionality of a <b>Nintendo Entertainment System™</b>, licensed under <a href="https://github.com/kegri/ROMance/blob/master/LICENSE.md"><b>GPL-3.0 License</b></a>
@@ -11,7 +11,7 @@
 ---
 
 ### Contact
-You can contact the core developer of ROMance at Instagram: k3gri. If you have any questions, feel free to ask.
+You can contact the core developer of ROMance at official ROMance Discord Server https://discord.gg/CswpArTUR7. If you have any questions, feel free to ask.
 
 ---
 
