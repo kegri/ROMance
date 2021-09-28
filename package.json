@@ -1,7 +1,7 @@
 {
   "name": "ROMance",
-  "version": "0.0.0",
-  "description": "A JavaScript NES emulator for PC/Android/iOS web browsers",
+  "version": "0.0.1",
+  "description": "An experimental web based Nintendo Entertainment System emulator for iOS/Android/PC browsers.",
   "repository": {
     "type": "git",
     "url": "git://github.com/kegri/ROMance"
