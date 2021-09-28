@@ -6,14 +6,12 @@
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>ROMance Web</title>
-	<link rel="stylesheet" type="text/css" href="index.css" />
+	<link rel="stylesheet" type="text/css" href="/css/index.css" />
 	<link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
 </head>
 
 <body class="">
-	<div id='wx_pic' style='margin:0 auto;display:none;'>
-		<img src="images/fc.png">
-	</div>
+	<center>
 	<div id="emulator"></div>
 
 	<div id="mobile-controlls">
@@ -45,9 +43,12 @@
 	<div id="pc-controlls">
 		<table id="controls">
 			<center>
-				<h1>This project is still alpha/prototype. Please don't expect too much.
-				https://github.com/kegri/ROMance</h1>
+				<h1>This project is still under development. Please don't expect too much.<br>
+				<a href='https://github.com/kegri/ROMance'>GitHub Repository</a>.</h1>
+
+				<img src="/images/controller.png" height="200%" width="20%">
 			</center>
+			<table>
 			<tr>
 				<th>Button</th>
 				<th>Player 1</th>
@@ -142,7 +143,6 @@
 						['The Legend of Zelda', 'roms/Legend of Zelda, The (U) (PRG1).nes'],
 						['Lemmings', 'roms/Lemmings (U).nes'],
 						['Lifeforce', 'roms/Lifeforce (U).nes'],
-
 						['Mario Bros.', 'roms/Mario Bros. (JU) [!].nes'],
 						['Mega Man', 'roms/Mega Man (U).nes'],
 						['Mega Man 2', 'roms/Megaman II (U) [!].nes'],
@@ -157,7 +157,7 @@
 
 				})
 			});
-			nes.ui.loadROM('roms/Contra (U) [!].nes')
+			nes.ui.loadROM('roms/Legend of Zelda, The (U) (PRG1).nes')
 		});
 
 		document.body.addEventListener('touchmove', function (e) {
@@ -168,6 +168,7 @@
 		});
 
 	</script>
+	</center>
 </body>
 
 </html>
