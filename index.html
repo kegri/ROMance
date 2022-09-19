@@ -43,8 +43,10 @@
 	<div id="pc-controlls">
 		<table id="controls">
 			<center>
-				<h1>This project is still under development. Please don't expect too much.<br>
-				<a href='https://github.com/kegri/ROMance'>GitHub Repository</a>.</h1>
+				<h1>
+					[EXPERIMENTAL] This project is still under development. Please don't expect too much. You can reach developer on Discord, Kegrine#0065.<br>
+					<a href='https://github.com/kegri/ROMance'>GitHub Repository</a>.
+				</h1>
 
 				<img src="/images/controller.png" height="200%" width="20%">
 			</center>
@@ -126,38 +128,17 @@
 				'emulateSound': true,
 				'ui': $('#emulator').JSNESUI({
 					"Homebrew": [
-						['Concentration Room', 'roms/croom/croom.nes'],
-						['LJ65', 'roms/lj65/lj65.nes'],
+                        ['Concentration Room', 'rons/croom.nes'],
+                        ['LJ65', 'roms/lj65.nes'],
 					],
 					"Best Roms": [
-						['BM', 'roms/BM.nes'],
-						['Bubble Bobble', 'roms/Bubble Bobble (U).nes'],
-						['Captain American', 'roms/Captain American [p1][!].nes'],
-						['Contra', 'roms/Contra (U) [!].nes'],
-						['Donkey Kong', 'roms/Donkey Kong (JU).nes'],
-						['Double Dragon', 'roms/Double Dragon (U) [!].nes'],
-						['Dr. Mario', 'roms/Dr. Mario (JU).nes'],
-						['F1', 'roms/F-1 Race (J).nes'],
-						['The Surprise at Dinosaur Peak', 'roms/Flintstones, The - The Surprise at Dinosaur Peak! (U) [p1][!].nes'],
-						['Golf', 'roms/Golf (JU).nes'],
-						['The Legend of Zelda', 'roms/Legend of Zelda, The (U) (PRG1).nes'],
-						['Lemmings', 'roms/Lemmings (U).nes'],
-						['Lifeforce', 'roms/Lifeforce (U).nes'],
-						['Mario Bros.', 'roms/Mario Bros. (JU) [!].nes'],
-						['Mega Man', 'roms/Mega Man (U).nes'],
-						['Mega Man 2', 'roms/Megaman II (U) [!].nes'],
-						['Pac-Man', 'roms/Pac-Man (U) [!].nes'],
-						['Super Mario Bros.', 'roms/Super Mario Bros. (JU) (PRG0) [!].nes'],
-						['Super Mario Bros. 3', 'roms/Super Mario Bros. 3 (U) (PRG1) [!].nes'],
-						['Tennis', 'roms/Tennis (JU) [!].nes'],
-						['Tetris', 'roms/Tetris (U) [!].nes'],
-						['Tetris 2', 'roms/Tetris 2 (U) [!].nes'],
-						['Zelda II - The Adventure of Link', 'roms/Zelda II - The Adventure of Link (U).nes']
+                        ['Concentration Room', 'rons/croom.nes'],
+                        ['LJ65', 'roms/lj65.nes']
 					],
 
 				})
 			});
-			nes.ui.loadROM('roms/Legend of Zelda, The (U) (PRG1).nes')
+			nes.ui.loadROM('roms/lj65.nes')
 		});
 
 		document.body.addEventListener('touchmove', function (e) {

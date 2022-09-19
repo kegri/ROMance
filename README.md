@@ -11,7 +11,7 @@
 ---
 
 ### Contact
-You can contact the core developer of ROMance at official ROMance Discord Server https://discord.gg/CswpArTUR7. If you have any questions, feel free to ask.
+You can contact the core developer of ROMance at Discord Kegrine#0065. If you have any questions, feel free to ask.
 
 ---
 

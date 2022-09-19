@@ -1,8 +1,8 @@
-var fs = require("fs");
-var path = require("path");
+import { readdirSync, writeFileSync } from "fs";
+import path from "path";
 var remotePath = "/roms";
 var fileArr = [];
-var files = fs.readdirSync(filePath);
+var files = readdirSync(filePath);
 var count = files.length;
 console.log(files)
 
@@ -14,7 +14,7 @@ function writeFile(fileArr){
 		var f = fileArr[i].split('.');
 	}
     var data = data.join(",\n");
-    fs.writeFileSync("../../"+"filelist.txt",data+'\r\n',function(err){
+    writeFileSync("../../"+"filelist.txt",data+'\r\n',function(err){
         if(err) throw err;
         console.log("Successfully gathered all roms.");
     });
